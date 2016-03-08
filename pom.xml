@@ -14,5 +14,18 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk</artifactId>
+      <version>${aws.version}</version>
+    </dependency>
   </dependencies>
+
+  <properties>
+    <aws.version>1.10.44</aws.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
+    <mytime>${maven.build.timestamp}</mytime>
+  </properties>
+
 </project>
